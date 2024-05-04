@@ -1,0 +1,164 @@
+:root {
+    --font1: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    --brand:#E50914;
+    --brand1:#2D282A;
+}
+
+body {
+    font-family: var(--font1);
+}
+.sign-in{
+    background-color: #E50914;
+    font-family: var(--font1);
+}
+.sign-in:hover{
+    background-color:#ab0911;
+}
+.back {
+    background-size: cover;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.linearColor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.746), transparent);
+    top: 0;
+    width: 100%;
+    height: 250px;
+    color: transparent;
+}
+
+.linearColor1 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.592), rgba(0, 0, 0, 0.587), black);
+    bottom: -5px;
+    width: 100%;
+    height: 300px;
+    color: transparent;
+}
+
+.lo {
+    top: 20px;
+    right: 100px;
+}
+
+.content {
+    top: 40%;
+    left: 20%;
+    color: white;
+}
+
+h1 {
+    font-family: var(--font1);
+    font-weight: 900;
+}
+
+h4 {
+    font-family: var(--font1);
+    font-weight: 400;
+    line-height: 2;
+}
+
+.sub {
+    background-color:#E50914;
+    border: none;
+    padding: 10px 10px 15px;
+}
+.sub:hover{
+    background-color:#ab0911;
+}
+
+.input {
+    outline: 0;
+    width: 50%;
+    margin-left: 5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.input1 {
+    outline: 0;
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.label {
+    left: 20px;
+    top: 5px;
+    font-size: small;
+    font-family: var(--font1);
+    filter: opacity(80%);
+}
+
+#email {
+    outline: 0;
+    width: 100%;
+    background: transparent;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    caret-color: white;
+    border: none;
+    color: white;
+    font-family: var(--font1);
+}
+#email1{
+    outline: 0;
+    width: 100%;
+    background: transparent;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    caret-color: white;
+    border: none;
+    color: white;
+    font-family: var(--font1);
+}
+#pass {
+    outline: 0;
+    width: 100%;
+    background: transparent;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    caret-color: white;
+    border: none;
+    color: white;
+    font-family: var(--font1);
+}
+
+.ok {
+    filter: opacity(10%);
+
+}
+
+/* auto fill manipulation  */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 0s 600000s, color 0s 600000s !important;
+}
+
+.fd{
+    top: 10%;
+}
+.fd-inn{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.663);
+    padding: 1rem 0.5rem 4rem 2rem;
+    width: 30%;
+
+}
+.sn{
+    background-color: var(--brand);
+    padding: 10px 8.6rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.usc{
+    background-color: var(--brand1);
+    padding: 10px 5.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
